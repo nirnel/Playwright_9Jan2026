@@ -2,11 +2,11 @@ pipeline {
   agent any
 
   stages {
-  stage('Checkout') {
-      steps {
-        git 'https://github.com/nirnel/Playwright_9Jan2026.git'
-      }
-    }
+stage('Checkout') {
+  steps {
+    checkout scm
+  }
+}
 
     stage('Install Dependencies') {
       steps {
