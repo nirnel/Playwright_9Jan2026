@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import * as helpers from '../utils/commonHelpers.js';
-import { Locators } from '../Locators/Locatorsxx.js';
+import { Locators } from '../Locators/Locators.js';
 
 const data = helpers.readExcelData('C:/Users/HP/OneDrive/Desktop/bookplay.xlsx');
 const InputData = helpers.readExcelDataForTestCase('C:/Users/HP/OneDrive/Desktop/bookplay.xlsx','LabelName','Test01');
